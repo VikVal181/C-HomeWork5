@@ -8,7 +8,7 @@ int[] Array = new int[rand.Next(1,10)];
 int CountOddPos=0;
 for (int i = 0; i < Array.Length; i++) 
 {
-    Array[i] = rand.Next(0,100);
+    Array[i] = rand.Next(-99,100);
     if (i != 0) 
     {
         Console.Write(", ");        
